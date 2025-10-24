@@ -1,0 +1,43 @@
+2d. Write a HTML program, to explain the working of frames, such that page is to be divided into 3 parts on either direction. (Note: first frame image, second frame frame paragraph, third fixed).
+Aim: Write a HTML program, to explain the working of frames, such that page is to be divided into 3 parts on either direction. (Note: first frame image, second frame frame paragraph, third fixed).
+Description: This HTML program demonstrates the concept of frames by dividing the web page into three horizontal sections using the <frameset> tag. The main file (index.html) uses the rows attribute to split the page into three parts: 30%, 40%, and 30% of the screen height respectively. Each section loads a separate HTML file using the <frame> tag. The first frame (image.html) displays an image, the second frame (paragraph.html) contains a paragraph of text, and the third frame (fixed.html) shows a fixed message, such as a footer or copyright note.
+
+Code:
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Frames Example-Vertical Split</title>
+</head>
+<frameset cols="33%,33%,34%">
+<frame src="C:\Users\Bhargavi\Downloads\Snapchat-1582342343.jpg".html" name="imageFrame">
+<frame src="paragraph.html" name="paraFrame">
+<frame src=http://127.0.0.1:8080/apex/f?p=4550:11:2054506615522742::NO:::.html" name="linkFrame">
+<noframes>
+<body>
+<p>your browser does not support frames.please update your browser.</p>
+</body>
+</noframes>
+</frameset>
+</html>
+For paragraph:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paragraph Frame</title>
+</head>
+<body>
+    <p>Software Engineering is the application of systematic, disciplined, and measurable approaches to the development, operation, and maintenance of software. It ensures that software is reliable, efficient, secure, and scalable to meet user requirements.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+Output:
